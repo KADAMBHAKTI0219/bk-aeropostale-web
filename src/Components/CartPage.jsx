@@ -8,7 +8,7 @@ const CartPage = () => {
   const { cart, removeItemFromCart, updateItemQuantity, getTotalPrice } = useContext(CartContext);
 
   const handleQuantityChange = (itemId, change) => {
-    const newQuantity = Math.max(1, cart.find(item => item.id === itemId).quantity + change); 
+    const newQuantity = Math.max(1, cart.find(item => item.id === itemId).quantity + change);
     updateItemQuantity(itemId, newQuantity);
   };
 

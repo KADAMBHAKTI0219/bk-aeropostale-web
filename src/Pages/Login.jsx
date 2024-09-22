@@ -117,7 +117,6 @@ const Login = () => {
       ) : (
         <div className="FormsLoginBtn">
           <form className="LoginForm" onSubmit={signInFormSubmit}>
-            <h2>Sign In</h2>
             <input type="email" placeholder="Enter Your Email" name="email" value={email} onChange={handleInputChange} />
             <input type="password" placeholder="Enter Your Password" name="password" value={password} onChange={handleInputChange} />
             <div className="btnSignUp">
