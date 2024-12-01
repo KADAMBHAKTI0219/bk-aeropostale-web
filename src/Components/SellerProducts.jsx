@@ -85,6 +85,7 @@ const SellerProducts = () => {
                 src={item.colors[0].image}
                 alt={item.title}
                 style={{ width: "100%" }}
+                className="productsImage"
               />
             </Link>
             <h5>{item.title}</h5>
